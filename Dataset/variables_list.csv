@@ -1,0 +1,59 @@
+Var_Id,Var_Title,Type,Var_Description,Field_Content
+1,ID_CLIENT,Continuous,Sequential number for the applicant (to be used as a key),"1-50000, 50001-70000, 70001-90000"
+2,CLERK_TYPE,Categorical,Not informed,C
+3,PAYMENT_DAY,Continuous,"Day of the month for bill payment, chosen by the applicant","1,5,10,15,20,25"
+4,APPLICATION_SUBMISSION_TYPE,Categorical,Indicates if the application was submitted via the internet or in person/posted,"Web, Carga"
+5,QUANT_ADDITIONAL_CARDS,Continuous,Quantity of additional cards asked for in the same application form,"1,2,NULL"
+6,POSTAL_ADDRESS_TYPE,Categorical,Indicates if the address for posting is the home address or other. Encoding not informed.,1.2
+7,SEX,Categorical,,"M=Male, F=Female"
+8,MARITAL_STATUS,Categorical,Encoding not informed,"1,2,3,4,5,6,7"
+9,QUANT_DEPENDANTS,Continuous,,"0, 1, 2, ..."
+10,EDUCATION_LEVEL,Categorical,Edducational level in gradual order not informed,"1,2,3,4,5"
+11,STATE_OF_BIRTH,Categorical,,"Brazilian states, XX, missing"
+12,CITY_OF_BIRTH,Categorical,,
+13,NACIONALITY,Categorical,Country of birth. Encoding not informed but Brazil is likely to be equal 1.,"0, 1, 2"
+14,RESIDENCIAL_STATE,Categorical,State of residence,
+15,RESIDENCIAL_CITY,Categorical,City of residence,
+16,RESIDENCIAL_BOROUGH,Categorical,Borough of residence,
+17,FLAG_RESIDENCIAL_PHONE,Categorical,Indicates if the applicant possesses a home phone,"Y,N"
+18,RESIDENCIAL_PHONE_AREA_CODE,Categorical,Three-digit pseudo-code,
+19,RESIDENCE_TYPE,Categorical,"Encoding not informed. In general, there are the types: owned, mortgage, rented, parents, family etc.","1,2,3,4,5,NULL"
+20,MONTHS_IN_RESIDENCE,Continuous,Time in the current residence in months,"1,2,... , NULL"
+21,FLAG_MOBILE_PHONE,Categorical,Indicates if the applicant possesses a mobile phone,"Y,N"
+22,FLAG_EMAIL,Categorical,Indicates if the applicant possesses an e-mail address,0.1
+23,PERSONAL_MONTHLY_INCOME,Continuous,Applicant's personal regular monthly income in Brazilian currency (R$),
+24,OTHER_INCOMES,Continuous,Applicant's other incomes monthly averaged in Brazilian currency (R$),
+25,FLAG_VISA,Categorical,Flag indicating if the applicant is a VISA credit card holder,0.1
+26,FLAG_MASTERCARD,Categorical,Flag indicating if the applicant is a MASTERCARD credit card holder,0.1
+27,FLAG_DINERS,Categorical,Flag indicating if the applicant is a SINERS credit card holder,0.1
+28,FLAG_AMERICAN_EXPRESS,Categorical,Flag indicating if the applicant is an AMERICAN EXPRESS credit card holder,0.1
+29,FLAG_OTHER_CARDS,Categorical,"Despite being label ""FLAG"", this field presents three values not explained","0,1,NULL"
+30,QUANT_BANKING_ACCOUNTS,Continuous,,"0,1,2"
+31,QUANT_SPECIAL_BANKING_ACCOUNTS,Continuous,,"0,1,2"
+32,PERSONAL_ASSETS_VALUE,Continuous,"Total value of the personal possessions such as houses, cars etc. in Brazilian currency (R$).",
+33,QUANT_CARS,Continuous,Quantity of cars the applicant possesses,
+34,COMPANY,Categorical,If the applicant has supplied the name of the company where he/she formally works,"Y,N"
+35,PROFESSIONAL_STATE,Categorical,State where the applicant works,
+36,PROFESSIONAL_CITY,Categorical,City where the applicant works,
+37,PROFESSIONAL_BOROUGH,Categorical,Borough where the applicant works,
+38,FLAG_PROFESSIONAL_PHONE,Categorical,Indicates if the professional phone number was supplied,"Y,N"
+39,PROFESSIONAL_PHONE_AREA_CODE,Categorical,Three-digit pseudo-code,
+40,MONTHS_IN_THE_JOB,Continuous,Time in the current job in months,
+41,PROFESSION_CODE,Categorical,Applicant's profession code. Encoding not informed,"1,2,3,..."
+42,OCCUPATION_TYPE,Categorical,Encoding not informed,"1,2,3,4,5,NULL"
+43,MATE_PROFESSION_CODE,Categorical,Mate's profession code. Encoding not informed,"1,2,3,..."
+44,EDUCATION_LEVEL.1,Categorical,Mate's educational level in gradual order not informed,"1,2,3,4,5"
+45,FLAG_HOME_ADDRESS_DOCUMENT,Categorical,Flag indicating documental confirmation of home address,0.1
+46,FLAG_RG,Categorical,Flag indicating documental confirmation of citizen card number,0.1
+47,FLAG_CPF,Categorical,Flag indicating documental confirmation of tax payer status,0.1
+48,FLAG_INCOME_PROOF,Categorical,Flag indicating documental confirmation of income,0.1
+49,PRODUCT,Categorical,Type of credit product applied. Encoding not informed,"1,2,7"
+50,FLAG_ACSP_RECORD,Categorical,Flag indicating if the applicant has any previous credit delinquency,"Y, N"
+51,AGE,Continuous,Applicant's age at the moment of submission,
+52,RESIDENCIAL_ZIP_3,Categorical,Three most significant digits of the actual home zip code,
+53,PROFESSIONAL_ZIP_3,Categorical,Three most significant digits of the actual job zip code,
+54,TARGET_LABEL_BAD=1,Categorical,"Target Variable: BAD=1, GOOD=0",
+55,AGE_GROUP,Categorical,Age group,
+,,,,
+,necessary,,,
+,unnecessary,,,
