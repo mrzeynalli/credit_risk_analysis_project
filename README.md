@@ -1,5 +1,5 @@
 # Credit Risk Analysis Project
 
-This repo is emptied for professional reasons.
+This repo is stopped from being updated due to professional reasons.
 
-It will soon be replaced with a new related project.
+It will soon be finalised.
